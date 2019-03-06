@@ -32,7 +32,7 @@ function resetInput() {
 function clearEmployeeListOnLinkClick() {
   let link = document.querySelector('a')
   let ul = document.querySelector('ul')
-  link.addEventListenter('click', function(event) {
+  link.addEventListener('click', function(event) {
     ul.innerHTML = ''
   })
 }
