@@ -26,5 +26,5 @@ function addNewLiOnClick() {
 }
 
 function resetInput() {
-  document.querySelector('input').vale = ''
+  document.querySelector('input').value = ''
 }
