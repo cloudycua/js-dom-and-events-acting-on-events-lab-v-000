@@ -4,4 +4,8 @@ function preventRefreshOnSubmit(){
     })
 }
 
+function retrieveEmployeeInformation(name) {
+  return name;
+}
+
 preventRefreshOnSubmit()
